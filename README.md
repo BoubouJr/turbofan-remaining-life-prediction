@@ -20,11 +20,8 @@ See the notebooks descriptions:
 Environment setup:
 
 ```
-python3.8 -m venv ./venv
-source venv/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
-python -m ipykernel install --user --name=venv
+conda env create -f my_ml_env.yml
+conda activate my_ml_env
 ```
 
 Download the dataset:
